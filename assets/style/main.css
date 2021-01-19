@@ -1,0 +1,792 @@
+
+/* GENERAL STYLING */
+
+body{ 
+    margin: 0; 
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  
+}
+
+/* ADMIN PAGES  */
+
+/* ADMIN INFO */
+
+/* DASHBOARD  */
+
+
+.right-side-bar {
+  border-radius: 50px;
+ }
+
+
+/* HOUSES PAGE  */
+
+select {
+  background-color: #f5f5f5;
+  color: #243e56;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.houses-title {
+  color: #243e56;
+}
+
+.card-title {
+  color: #243e56;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-subtitle {
+  color: grey;
+}
+
+.btn-add {
+  background-color: white;
+  color: #243e56;
+  border: solid 2px #243e56;
+  padding: 10 10 10 10;
+  outline: none;
+}
+.btn-add:hover {
+  background-color: #243e56;
+  color: white;;
+  border: solid 2px whitesmoke;
+  padding: 10 10 10 10;
+}
+.pagination{
+  color: white;
+}
+
+.card-box-ico {
+  padding: 1rem 3rem 1rem 2.5rem;
+  border: 5px solid #70AA62;
+}
+
+.card-box-ico span {
+  font-size: 4rem;
+  color: #000000;
+}
+
+.property-price {
+  margin: 0 auto;
+}
+
+.property-price .card-header-c {
+  padding: 0;
+}
+
+.title-c {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: -40px;
+}
+
+.summary-text {
+  color: #243e56;
+}
+
+.edit-house {
+  background-color: white;
+  color: #70AA62;
+  border: 2px solid #70AA62;
+  padding: 15 15 15 15;
+}
+
+.sold-house {
+  background-color: white;
+  color: #70AA62;
+  border: 2px solid #70AA62;
+  padding: 15 15 15 15;
+}
+
+.edit-house:hover {
+  background-color: #70AA62;
+  color: white;
+  border: 2px solid white;
+  padding: 15 15 15 15;
+}
+
+.sold-house:hover {
+  background-color: #70AA62;
+  color: white;
+  border: 2px solid white;
+  padding: 15 15 15 15;
+}
+
+.bx-left-arrow-alt {
+  font-size: 40px;
+  color: #70AA62;
+}
+
+.team-button {
+  border: 2px solid #70AA62;
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.add-agent{
+  border: 2px solid #70AA62;
+  background-color: white;
+  color: #70AA62;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.add-house{
+  border: 2px solid #70AA62;
+  background-color: white;
+  color: #70AA62;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.side-img {
+  border-radius: 150px;
+}
+
+.reservation-summary {
+  color: #70AA62;
+}
+
+.reservation-image {
+  border-radius: 20px;
+}
+
+.submit-button {
+  border: 2px solid #70AA62;
+  background-color: white;
+  color: #70AA62;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container-confirmation {
+  padding-top: 300px;
+  padding-left: 700px;
+}
+
+.reserve-btn {
+  border: 2px solid #243e56;
+  background-color: transparent;
+  color: #243e56;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.house-btn {
+  border: 2px solid #243e56;
+  background-color:  #243e56;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.house-btn:hover {
+  border: 2px solid #243e56;
+  background-color: #70AA62;
+  color: #243e56;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/* HEADER */
+
+.btn-sm {
+  color: white;
+  font-family: Roboto regular;
+  font-size: 20px;
+}
+
+.navbar-nav a{
+  color: white;
+  text-decoration: none;
+  font-family: Roboto regular;
+  font-size: 20px;
+}
+
+.sticky-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.btn-secondary {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  width: 120px;
+  height: 50px;
+}
+.btn-secondary:hover {
+  background-color: white;
+
+}
+
+.bxs-user-circle {
+  color: grey;
+  font-size: 35px;
+}
+
+.bx-menu {
+  color: grey;
+  font-size: 30px;
+
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 15px;
+}
+/* TOP SECTION */
+
+#top-section {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/bg.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+/* SEARCH SECTION */
+
+.form-select {
+  width: 200px;
+}
+
+.btn-primary {
+  background-color: #70AA62;
+}
+
+.bx-search-alt-2 {
+  font-size: 25px;
+}
+
+
+/* REVIEWS */
+
+.section-reviews .card {
+  width: 25rem;
+}
+
+/* BOOK SECTION */
+
+.book-button {
+  border: 2px solid #70AA62;
+  background-color: transparent;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* LOGIN  */
+
+.login-button {
+  border: 2px solid #70AA62;
+  background-color: transparent;
+  color: rgba(14, 9, 12);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #70AA62;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+/* REGISTER  */
+
+.register-button {
+  border: 2px solid #70AA62;
+  background-color: transparent;
+  color: rgba(14, 9, 12);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #70AA62;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+/* REVIEWS SECTION */
+
+.section-reviews {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/bg-testimonials.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow:inset 0 0 0 2000px rgba(14, 9, 12, 0.3);
+}
+
+.section-reviews .row {
+  opacity: 85%;
+}
+
+.section-reviews i {
+  font-size: 20px;
+}
+
+/* FACTS SECTION */
+
+.facts-section h5 {
+  color: blacK;
+}
+
+.facts-section i {
+  font-size: 45px;
+}
+
+.facts-section h1 {
+  color: #70AA62;
+}
+
+.facts-section .col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  border-right: 1px dashed black;
+}
+
+.facts-section .col-md-4:last-child {
+  border-right: 0px solid black;
+}
+
+.facts-section .counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+i.fa-users {
+  display: inline-block;
+  border-radius: 80px;
+  background-color: rgb(50, 57, 65);
+  color: white;
+  padding: 0.5em 0.5em;
+
+}
+i.fa-home {
+  display: inline-block;
+  border-radius: 80px;
+  background-color: rgb(50, 57, 65);
+  color: white;
+  padding: 0.5em 0.5em;
+
+}
+i.fa-globe-americas {
+  display: inline-block;
+  border-radius: 80px;
+  background-color: rgb(50, 57, 65);
+  color: white;
+  padding: 0.5em 0.6em;
+
+}
+
+
+
+/* TEAM SECTION */
+
+.section-team {
+  background-color: rgb(50, 57, 65);
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.section-team .card-header-d  {
+  padding: 70px 0;
+}
+
+.section-team i  {
+  color: #70AA62;
+}
+
+.section-team button {
+    border: 2px solid #70AA62;
+    background-color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.card-body-d {
+  padding: 70px 0;
+}
+
+@media (max-width: 767px) {
+  .section-team {
+    padding-top: 4rem;
+  }
+}
+
+.team-link {
+ color: #70AA62;
+}
+
+.title-wrap {
+  padding-bottom: 4rem;
+}
+
+.title-a {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.title-box {
+  padding-bottom: 1.8rem;
+  margin-bottom: 1rem;
+  position: relative;
+  justify-self: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .card-box-d {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid .card-box-d {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card-box-d {
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.card-box-d .card-overlay-hover {
+  transition: all .2s ease-in-out;
+  padding: 15px 40px 15px 35px;
+}
+
+@media (min-width: 768px) {
+  .card-box-d .card-overlay-hover {
+    padding: 5px 15px 5px 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .card-overlay-hover {
+    padding: 5px 40px 5px 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-box-d .card-overlay-hover {
+    padding: 15px 40px 5px 35px;
+  }
+}
+
+.card-box-d .title-d {
+  transition: .3s ease-in-out;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .card-box-d .title-d {
+    font-size: 1.1rem;
+    margin: .5rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .title-d {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-box-d .title-d {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+}
+
+.card-box-d .content-d {
+  opacity: 0;
+  transition: .5s ease-in-out;
+  transform: translateY(-40px);
+}
+
+@media (min-width: 768px) {
+  .card-box-d .content-d {
+    font-size: .8rem;
+    margin: .5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-box-d .card-body-d p {
+    margin-bottom: 8px;
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-box-d .card-body-d p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+  }
+}
+
+.card-box-d .info-agents {
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.card-box-d .card-footer-d {
+  transition: .5s ease-in-out;
+  transform: translateY(40px);
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+}
+
+.card-box-d .list-inline-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.card-box-d:hover .card-overlay-hover {
+  background-color: white;
+  opacity: .8;
+}
+
+.card-box-d:hover .title-d,
+.card-box-d:hover .content-d,
+.card-box-d:hover .info-agents,
+.card-box-d:hover .card-footer-d {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+  .section-team {
+    padding-top: 4rem;
+  }
+
+  #top-section .title {
+    margin-top: 300px;
+    font-size: 55px;
+  }
+
+  #top-section .arrow-down {
+    margin-top: 200px;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+    margin-top: 25px;
+    border: solid 5px #70AA62;
+    margin-left: 15px;
+  }
+
+  .navbar-brand{
+    margin-top: 25px;
+  }
+
+  .section-container .container {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .book-section h4 {
+    margin-top: 20px;
+  }
+
+  .section-reviews .card {
+    width: 12rem;
+    height: 35rem;
+  }
+
+  #agent-info {
+    display: none;
+  }
+
+  .container-fluid{
+    display: none;
+  }
+
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  #top-section .title {
+    margin-top: 300px;
+    font-size: 65px;
+  }
+  #top-section .arrow-down {
+    margin-top: 200px;
+  }
+
+  .muted-text {
+    display: none;
+  }
+}
+
+#wave {
+  position: relative;
+  height: 71px;
+  width: 100%;
+  background: #e0efe3;
+ 
+
+}
+
+#wave:before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 340px;
+    height: 80px;
+    background-color: white;
+    right: -25px;
+    top: 40px;
+}
+
+#wave:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 300px;
+    height: 70px;
+    background-color: #e0efe3;
+    left: 0;
+    top: 27px;
+    
+}
+
+
+
+.input-container {
+  position: relative;
+}
+
+.agent-input {
+  border: solid 2px lightgrey;
+  outline: none;
+  width: 500px;
+  height: 50px;
+  border-radius: 15px;
+  
+}
+
+
+
